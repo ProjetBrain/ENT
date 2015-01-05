@@ -42,28 +42,34 @@ public class Main {
 		tabBuletin[compt]+=b+" ";
 
 		System.out.println("---------- Entrez la note en Math  --------------");
-		String Math = sc.nextLine();
-		tabBuletin[compt]+=Math+" ";
-
+		int Math = sc.nextInt();
+		tabBulletin[compt]+= Math+" ";
+		sc.nextLine();
+		
 		System.out.println("---------- Entrez la note en Français  ----------");
-		String Français = sc.nextLine();
-		tabBuletin[compt]+=Français+" ";
+		int Français = sc.nextInt();
+		tabBulletin[compt]+=Français+" ";
+		sc.nextLine();
 
 		System.out.println("---------- Entrez la note en Histoire  ----------");
-		String Histoire = sc.nextLine();
-		tabBuletin[compt]+=Histoire+" ";
+		int Histoire = sc.nextInt();
+		tabBulletin[compt]+=Histoire+" ";
+		sc.nextLine();
 
 		System.out.println("---------- Entrez la note en EPS  ---------------");
-		String EPS = sc.nextLine();
-		tabBuletin[compt]=EPS+" ";
+		int EPS = sc.nextInt();
+		tabBulletin[compt]=EPS+" ";
+		sc.nextLine();
 
 		System.out.println("---------- Entrez la note en SVT  ---------------");
-		String SVT = sc.nextLine();
-		tabBuletin[compt]+=SVT+" ";
+		int SVT = sc.nextInt();
+		tabBulletin[compt]+=SVT+" ";
+		sc.nextLine();
 
 		System.out.println("---------- Entrez la note en Chimie  ------------");
-		String Chimie = sc.nextLine();
-		tabBuletin[compt]+=Chimie;
+		int Chimie = sc.nextInt();
+		tabBulletin[compt]+=Chimie;
+		
 		System.out.println("---------- Bulletin ajouté !  -------------------");
 		compt++;
 		this.inter();
@@ -84,10 +90,6 @@ public class Main {
 			System.out.println("probleme");
 			this.inter();
 		}
-			
-			
-		
-	
 	}
 
 }
