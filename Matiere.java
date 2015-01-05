@@ -8,7 +8,7 @@ public class Matiere {
 	}
 	
 	public void setNom(String matiere) {
-		this.nom[nom.length-1] = matiere;
+		this.nom[nom.length-1] += " "+ matiere;
 	}
 	
 	public float getCoefficient() {
