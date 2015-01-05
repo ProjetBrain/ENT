@@ -12,7 +12,7 @@ public class Main {
 		Scanner sc = new Scanner(System.in);
 		System.out.println("----------Creer nouvel eleve : 1 ----------");
 		System.out.println("----------Creer nouveau bulletin : 2 ------");
-		System.out.println("----------Modifier bulletin existant: 3 ---");
+		System.out.println("----------Ajouter une matiere: 3 ----------");
 		int str = sc.nextInt();
 		
 		if(str==1){
