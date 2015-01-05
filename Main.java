@@ -33,7 +33,7 @@ public class Main {
 
 		System.out.println("Entrez le nom de l'eleve :");
 		String a = sc.nextLine();
-		tabBuletin[compt]=a+" ";
+		tabBuletin[compt]+=a+" ";
 		
 		System.out.println("Entrez le prenom de l'eleve :");
 		String b = sc.nextLine();
@@ -62,7 +62,7 @@ public class Main {
 		System.out.println("Entrez la note en Chimie");
 		String Chimie = sc.nextLine();
 		tabBuletin[compt]+=Chimie;
-		
+		System.out.println("Bulletin ajouté !");
 		compt++;
 		}
 		else if(str==3){
